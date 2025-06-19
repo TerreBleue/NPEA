@@ -1,4 +1,4 @@
-from kafkaFunctions.producer import send_message
+from kafkaFunctions._producer import send_message
 import pandas as pd
 import numpy as np
 import json

@@ -1,3 +1,4 @@
 npea_env/
+.venv/
 __pycache__/
 kafkaFunctions/__pycache__
