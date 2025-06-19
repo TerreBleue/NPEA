@@ -11,3 +11,13 @@ def insert_noise_data(data):
         print("Data inserted successfully.")
     except Exception as e:
         print(f"An error occurred while inserting data: {e}")
+
+# Function to retrieve noise data
+def get_noise_data():
+    try:
+        data = list(collection.find())
+        print("Data retrieved successfully.")
+        return data
+    except Exception as e:
+        print(f"An error occurred while retrieving data: {e}")
+        return []
